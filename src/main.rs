@@ -6,8 +6,6 @@ use person::people::People as ManyPersons;
 fn main() {
     let mut users = vec!["Tom", "Sam", "Bob"];
 
-    let object: Object = Object{};
-
     print_vec(&users);
     users.push("Alice");
 
